@@ -24,8 +24,54 @@ header{
     border-radius: 1.2rem;
     font-size: 0.8rem;
     border: 1px solid #fff;
+    transition: all 400ms ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+        background-color: #fff;
+        color: #0d1c42;
+    }
 }
 .btn1{
     color: #000;
     background-color: #fff;
+    &:hover{
+        background-color: #0d1c42;
+        color: #fff;
+    }
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 1rem;
+    & a{
+        text-decoration: none;
+        color:#0d1c42;
+        font-size: 1rem;
+        font-family: sans-serif;
+        font-weight: 800;
+        & span{
+            font-weight: 100;
+            font-size: 1.3rem;
+        }
+    }
+    & li{
+        list-style: none;
+    }
+}
+.container2{
+    display: flex;
+    gap: 1rem;
+}
+.hero{
+    background-image: url(360_F_603211204_pC06ntrzN95QQLs0J0DVTwlNAFqZUjFJ.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80rem;
+    height: 33rem;
+    border-radius: 1rem;
+    margin-left: 6rem;
 }
