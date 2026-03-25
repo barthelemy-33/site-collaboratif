@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1c42;
+}
+.container1 p{
+    font-size: 1rem;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding: 1rem;
+}
+.btn{
+    background-color: inherit;
+    color: #fff;
+    padding: 0.4rem;
+    border-radius: 1.2rem;
+    font-size: 0.8rem;
+    border: 1px solid #fff;
+}
+.btn1{
+    color: #000;
+    background-color: #fff;
+}
