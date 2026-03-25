@@ -75,3 +75,56 @@ header{
     border-radius: 1rem;
     margin-left: 6rem;
 }
+.hero2{
+    background: #0f1d43;
+    width: 100%;
+    height: 18rem;
+}
+h1{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    padding: 7rem;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 3rem;
+    font-size: 1.3rem;
+    color: #0d1c42;
+    & form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    & input{
+        width: 27rem;
+        height: 3rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        outline: none;
+        color: #0d1c42;
+    }
+    textarea{
+        width: 27rem;
+        height: 10rem;
+    }
+}
+.btn2{
+    color: #fff;
+    background-color: #0d1c42;
+    padding: 1rem;
+    width: 13rem;
+    font-size: 1.2rem;
+    border-radius: 10rem;
+    &:hover{
+        background-color: #676f82;
+        color: #fff;
+    }
+}
+textarea{
+
+}
