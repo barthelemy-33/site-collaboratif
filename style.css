@@ -74,6 +74,7 @@ header{
     height: 33rem;
     border-radius: 1rem;
     margin-left: 6rem;
+    margin-bottom: 6rem;
 }
 .hero2{
     background: #0f1d43;
@@ -124,4 +125,17 @@ h1{
         background-color: #676f82;
         color: #fff;
     }
+}
+footer{
+    background: #0d1c42;
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 2rem;
+    justify-content: end;
+    align-items: center;
+}
+img{
+    width: 2rem;
+    height: auto;
 }
